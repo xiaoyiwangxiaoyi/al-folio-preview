@@ -1,34 +1,68 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Assistant Professor · Department of Computer Science · Shantou University
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <div class="profile-social-icons" aria-label="Contact and academic profiles">
+      <a href="mailto:xiaoyiwang@stu.edu.cn" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=rTnPg2UAAAAJ" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.linkedin.com/in/xiaoyiwangxiaoyi/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://gitlab.com/xiaoyi.wang" aria-label="GitLab"><i class="fa-brands fa-gitlab"></i></a>
+      <a href="https://orcid.org/0000-0001-6120-5921" aria-label="ORCID"><i class="ai ai-orcid"></i></a>
+    </div>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<style>
+  .post-header .post-title {
+    font-weight: 700;
+  }
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+  .profile .more-info .profile-social-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+  }
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+  .profile .more-info .profile-social-icons a,
+  .profile .more-info .profile-social-icons a:hover,
+  .profile .more-info .profile-social-icons a i::before {
+    color: #000 !important;
+    text-align: center;
+  }
+
+  .research-interests-title {
+    margin-top: 1.25rem;
+    margin-bottom: 0.65rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+</style>
+
+**Xiaoyi Wang** is an Assistant Professor in the Department of Computer Science at Shantou University, China. He received his Ph.D. in Human–Computer Interaction from the University of Copenhagen under the supervision of Kasper Hornbæk and his M.Sc. in Digital Media from the University of Bremen, where he worked with Rainer Malaka and Jan Smeddinck. After completing his Ph.D., he worked as a consultant at the United Nations before returning to academia.
+
+His research lies at the intersection of Human–Computer Interaction and Artificial Intelligence. He investigates how human-centered theories, methods, and interactive systems can improve the transparency, interpretability, and practical use of AI. His recent work focuses on explainable large language models, behavioral modeling, AI-supported mental health and professional training, as well as human performance in immersive environments.
+
+<p class="research-interests-title">Research Interests</p>
+
+- Human–Computer Interaction
+- Human-Centered AI
+- Interactive AI Systems
+- Human Behavior Modeling
+- Virtual and Mixed Reality
